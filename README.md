@@ -15,14 +15,17 @@ SQL queries were created to generate a list of retiring employees by title and a
 ![Pic 1](https://github.com/Akotovets1/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
 2. A Retirement Titles table was made that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955:
+
 ![Pic 2](https://github.com/Akotovets1/Pewlett-Hackard-Analysis/blob/main/retirement_titles.png)
 
 But there were many duplicate entries because some employees had multiple titles in the database.
 
 3. Using the 'distinct on' SQL script, the duplicates were removed leaving the most recent job title to create a unique list of retiring employees:
+
 ![Pic 3](https://github.com/Akotovets1/Pewlett-Hackard-Analysis/blob/main/unique_titles.png)
 
 4. Then a Retiring Titles table was created
+
 ![Pic 4](https://github.com/Akotovets1/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
 
 
